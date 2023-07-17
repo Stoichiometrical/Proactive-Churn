@@ -128,7 +128,7 @@ def get_recommendations(request):
             'https://api.openai.com/v1/engines/davinci-codex/completions',
             headers={
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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'
+                'Authorization': 'Bearer API_KEY'
             },
             json={
                 'prompt': prompt,

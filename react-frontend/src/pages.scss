@@ -1,0 +1,128 @@
+.home-container{
+  display :flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width:100%;
+  background-image: url("https://images.pexels.com/photos/7841458/pexels-photo-7841458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  h1{
+    color:white;
+    text-align: center;
+    font-size:50px;
+    width:50%;
+    margin-left:26%
+  }
+
+  h4{
+    text-align: center;
+    background: rgba(30, 144, 255, 0.57);
+    color:white;
+    width:50%;
+    //width: fit-content;
+    padding: 15px;
+    margin-left: 25%;
+
+  }
+
+  .get-started{
+    padding:15px;
+    background:#1e90ff;
+    width:fit-content;
+    color:white;
+    cursor:pointer;
+    font-weight: bold;
+    font-size:1.2rem;
+    margin-left:47%;
+  }
+
+}
+
+.upload-container{
+  background: linear-gradient(to bottom, #87ceeb, #1e90ff);
+  display:flex;
+  flex-direction: column;
+  color:white;
+  height: 100vh;
+  align-items: center;
+
+  h2{
+    color:white;
+    font-weight: bold;
+    margin-top:5%;
+    margin-bottom: 5%;
+
+  }
+
+  h3{
+
+  }
+
+  .upload-options{
+    display:flex;
+    flex-flow:row wrap;
+    gap:30px;
+    margin: 5%;
+
+    button{
+      padding:25px;
+      background: #007BFF;
+      color:white;
+      border:none;
+      border-radius: 10px;
+
+    }
+  }
+}
+
+.ups{
+  background: linear-gradient(to bottom, #87ceeb, #1e90ff);
+  color:white;
+  height: 100%;
+  margin: 0;
+
+  .first-sect{
+    display: flex;
+  }
+
+  h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+
+  img{
+    margin-left:30%;
+  }
+
+  .churn-box{
+    margin:5%;
+    padding:15px;
+    background: white;
+    border-radius: 10px;
+    border:none;
+    text-align: center;
+    color:#1e90ff;
+    width:fit-content;
+
+    .number{
+      font-size:50px
+    }
+    .num-small{
+      font-size:30px;
+      //width: 50%;
+    }
+  }
+
+  .rec-sections{
+    display: flex;
+    margin: 3% 3% 0;
+    padding:3%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>David Booking App</title>
+{#    <script type="text/javascript" src="js.js"></script>#}
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+</head>
+<body>
+
+<h1>Welcome to my Calendly site</h1>
+<div id="calender" style="height:300px;width:300px;"></div>
+
+{#<div class="calendly-inline-widget"  data-auto-load="false" style="height:300px;width:300px;"></div>#}
+
+<script>
+Calendly.initInlineWidget({
+url: 'https://calendly.com/davidtgondo',
+    parentElement: document.getElementById('calender'),
+});
+</script>
+
+
+</body>
+</html>
